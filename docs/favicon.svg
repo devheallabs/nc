@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="dh-grad-small" x1="0" y1="20" x2="40" y2="20" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#0035A1" />
+            <stop offset="1" stop-color="#00CFFF" />
+        </linearGradient>
+    </defs>
+    <path d="M8 4H24C32 4 38 10 38 20C38 30 32 36 24 36H8M8 10V32" stroke="url(#dh-grad-small)" stroke-width="6" stroke-linecap="butt"/>
+</svg>

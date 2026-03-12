@@ -1,21 +1,4 @@
-<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <!-- Extremely Bold D -->
-    <path d="M15 10H60C85 10 95 30 95 50C95 70 85 90 60 90H15V10ZM28 22V78H60C78 78 82 65 82 50C82 35 78 22 60 22H28Z" fill="url(#logo-grad)" />
-    <!-- Bold H Integrated -->
-    <path d="M35 32V68H43V54H52V68H60V32H52V46H43V32H35Z" fill="url(#logo-grad)" />
-    <!-- Bold A & i -->
-    <path d="M68 68L76 45L84 68H79L78 61H73L72 68H68ZM74 57H77L76 50L74 57Z" fill="url(#logo-grad)" />
-    <circle cx="90" cy="45" r="3.5" fill="url(#logo-grad)" />
-    <path d="M88 52H92V68H88V52Z" fill="url(#logo-grad)" />
-    <!-- Thick Tech Traces -->
-    <path d="M58 42C62 42 66 38 66 34" stroke="#00D4FF" stroke-width="4" stroke-linecap="round" />
-    <circle cx="66" cy="34" r="2.5" fill="#00D4FF" />
-    <path d="M58 58C62 58 66 62 66 66" stroke="#00D4FF" stroke-width="4" stroke-linecap="round" />
-    <circle cx="66" cy="66" r="2.5" fill="#00D4FF" />
-    <defs>
-        <linearGradient id="logo-grad" x1="15" y1="10" x2="95" y2="90" gradientUnits="userSpaceOnUse">
-            <stop stop-color="#0066FF" />
-            <stop offset="1" stop-color="#00D4FF" />
-        </linearGradient>
-    </defs>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="2000" viewBox="0 0 2000 2000">
+  <image href="devheal_logo_bold_transparent.png" width="2000" height="2000"/>
 </svg>

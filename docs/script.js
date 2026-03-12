@@ -47,12 +47,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // Simulate project loading states
     const loadingLabel = document.querySelector('.loading-label');
     if (loadingLabel) {
+        console.log('Project loader initialized');
         const states = [
             'Synchronizing NC Engine',
             'Fetching Open Source Repositories',
             'Analyzing Architectural Health',
             'Optimizing AI Bridge',
-            'Preparing Development Lifecycle'
+            'Preparing Development Lifecycle',
+            'Readying V1.0.0 Release'
         ];
         let currentState = 0;
         
@@ -62,7 +64,10 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(() => {
                 loadingLabel.textContent = states[currentState];
                 loadingLabel.style.opacity = '1';
+                console.log('Loader state updated to:', states[currentState]);
             }, 500);
-        }, 4000);
+        }, 3000); // Slightly faster for more dynamism
+    } else {
+        console.error('Project loader element not found');
     }
 });
